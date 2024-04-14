@@ -1,7 +1,7 @@
 import project1 from "../assets/projects/project-1.jpg";
-import project2 from "../assets/projects/project-2.jpg";
-import project3 from "../assets/projects/project-3.jpg";
-import project4 from "../assets/projects/project-4.jpg";
+import project2 from "../assets/projects/project-2.PNG";
+import project3 from "../assets/projects/project-3.PNG";
+import project4 from "../assets/projects/project-4.PNG";
 
 export const HERO_CONTENT = `¡Hola! Tengo 20 años y estoy emprendiendo en el camino de la ingeniería informática. Por otro lado, soy desarrollador front-end y estudio Data Science. Los conocimientos que he logrado hasta ahora incluyen HTML, CSS, Bootstrap, Sass, JavaScript, 
 ReactJS, C, Python y tengo algunas habilidades con Tailwind y Next.js.`;
@@ -41,32 +41,32 @@ export const EXPERIENCES = [
 
 export const PROJECTS = [
   {
-    title: "E-Commerce Website",
+    title: "Python y Data Science",
     image: project1,
     description:
-      "A fully functional e-commerce website with features like product listing, shopping cart, and user authentication.",
-    technologies: ["HTML", "CSS", "React", "Node.js", "MongoDB"],
+      "Proyectos de Data, Bases de datos, Visualización, Creación de modelos de aprendizaje y Proyectos de Python ",
+    technologies: ["Python", "Pandas", "Seaborn","Scikit-Learn"],
   },
   {
-    title: "Task Management App",
+    title: "E-Commerce Website",
     image: project2,
     description:
-      "An application for managing tasks and projects, with features such as task creation, assignment, and progress tracking.",
-    technologies: ["HTML", "CSS", "Angular", "Firebase"],
+      "Una app robusta con HomePage, apartado de Shop, un Blog para noticias, una sección About para poner quiénes somos, Contactos y una sección de Compra-Pago",
+    technologies: ["HTML", "CSS", "Javascript"],
   },
   {
-    title: "Portfolio Website",
+    title: "App de Música",
     image: project3,
     description:
-      "A personal portfolio website showcasing projects, skills, and contact information.",
-    technologies: ["HTML", "CSS", "React", "Bootstrap"],
+      "Una App para disfrutar de su música favorita de manera simple y rápida.",
+    technologies: ["HTML", "CSS", "JavaScript"],
   },
   {
-    title: "Blogging Platform",
+    title: "Story-Slider",
     image: project4,
     description:
-      "A platform for creating and publishing blog posts, with features like rich text editing, commenting, and user profiles.",
-    technologies: ["HTML", "CSS", "Vue.js", "Express", "mySQL"],
+      "Un sitio web basado en imágenes que relata memorias de vida, curiosidades e incertidumbres de paisajes o momentos armónicos.",
+    technologies: ["HTML", "CSS", "JavaScript"],
   },
 ];
 
