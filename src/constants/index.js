@@ -32,9 +32,9 @@ export const EXPERIENCES = [
   },
   {
     year: "2020 - 2021 Nacimiento",
-    role: "Software Engineer",
-    company: "Paypal",
-    description: `Dicen que "Los primeros pasos de un programador suelen estar llenos de curiosidad y entusiasmo", y en mi caso, eso fue exactamente lo que sucedió. Motivado por el deseo de crear tecnología para resolver los problemas cotidianos de las personas, comencé investigando en videos en internet y dando mis primeros pasos con HTML y CSS. Después de unos meses, tomé la decisión final al terminar la escuela secundaria: me inscribí en ingeniería informática y comencé a trazar mi futuro como una persona ejemplar que pueda ayudar al prójimo con mis creaciones tecnológicas`,
+    role: "Estudiante",
+    company: "Universidad Fasta",
+    description: `Dicen que "Los primeros pasos de un programador suelen estar llenos de curiosidad y entusiasmo", y en mi caso, eso fue exactamente lo que sucedió. Motivado por el deseo de crear tecnología para resolver los problemas cotidianos de las personas, comencé investigando en videos en internet y dando mis primeros pasos con HTML y CSS. Después de unos meses, tomé la decisión al finalizar la escuela secundaria: me inscribí en ingeniería informática y comencé a trazar mi futuro como una persona ejemplar que pueda ayudar al prójimo con mis creaciones tecnológicas`,
     technologies: ["HTML", "CSS", "C", "PASCAL"],
   },
 ];

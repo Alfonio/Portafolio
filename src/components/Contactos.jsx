@@ -2,6 +2,13 @@ import { CONTACT } from "../constants"
 import { motion } from "framer-motion";
 
 
+function enviarCorreo() {
+  const correo = "alfosotff8903@gmail.com"; // Tu dirección de correo
+  const url = "https://mail.google.com/mail/?view=cm&to=" + encodeURIComponent(correo);
+  window.open(url, "_blank");
+}
+
+
 function Contactos() {
   return (
     <div className="border-b border-neutral-900 pb-20">
@@ -25,7 +32,8 @@ function Contactos() {
                  whileInView={{opacity: 1}}
                  initial={{opacity: 0}}
                  transition={{duration: 3 }}
-          className="border-b" href="#">{CONTACT.email}</motion.a>
+          className="border-b"   onClick={enviarCorreo}
+          href="#">{CONTACT.email}</motion.a>
         </div>
     </div>
   )
